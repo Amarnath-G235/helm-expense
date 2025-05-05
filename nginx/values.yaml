@@ -1,6 +1,6 @@
 deployment:
-  imageVersion: v1 
-  replicas: 2
+  imageVersion: alpine
+  replicas: 4
 service:
   port: 80
-  type: LoadBalancer 
+  type: LoadBalancer
